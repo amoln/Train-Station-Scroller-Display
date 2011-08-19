@@ -55,7 +55,7 @@ var App = {
   showMessages: function(ctr) {
     if (ctr<messages.length) {
       var x = Math.ceil(Math.random()*7)
-      if (x>4) { // This is just to reset the positions after a while due to javascript weirdness sometimes.
+      if (x>4) { // This is just to reset the positions after a while due to javascript weirdness sometimes. Change this code if it happens too often.
         App.resetMessage();
       }
     } else {
